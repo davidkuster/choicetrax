@@ -1,0 +1,131 @@
+TABLE.monthDates TD {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+.txtbox	{
+	font-family: verdana, helvetica, arial, sans-serif;
+	color: #999999;
+	maxlength: 40;
+	width: 100px;
+	margin: 5px 0px 5px 0px;
+}
+
+.popupPanel	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	background: #ADBED7;
+}
+	
+.calendarPanel	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+	background: #ADBED7;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+	border-top:1px solid gray;
+}
+ 
+.todayPanel	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	float: right;
+	font-weight:bold;
+	color:#FFFFFF;
+	background: #ADBED7;
+	text-align:center;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+} 
+ 
+.todayLink	{
+ 	font-family:Arial, Helvetica, sans-serif;
+ 	font-size:11px;
+ 	float: right;
+ 	font-weight:bold;
+ 	color:#FFFFFF;
+	background: #ADBED7;
+	width: 100%;
+	text-align:center;
+	text-decoration:underline;
+	cursor:pointer;cursor:hand;
+} 
+ 
+.monthHeader {
+ 	font-family:Arial, Helvetica, sans-serif;
+ 	font-size:10px;
+ 	font-weight:BOLD;
+ 	color:#FFFFFF;
+ 	text-align:center;
+}
+
+ 
+.holidayWeek {
+ 	font-family:Arial, Helvetica, sans-serif;
+ 	font-size:10px;
+ 	font-weight:BOLD;
+ 	color: #FFFFFF;
+ 	text-align:center;
+}
+ 
+.holiday {
+ 	font-family:Arial,Arial, Helvetica, sans-serif;
+ 	font-size:10px;
+ 	color: #FFFFFF;
+ 	text-align:center;
+}
+ 
+.holidaySelectable {
+ 	font-family:Arial,Arial, Helvetica, sans-serif;
+ 	font-size:10px;
+ 	color: #FFFFFF;
+ 	text-align:center;
+	cursor:pointer;cursor:hand;
+} 
+
+.monthYearTraversorBtn	{
+	font-family:Arial, Helvetica, sans-serif;font-size:11px;
+	background: #ADBED7;
+	color: #FFFFFF;
+	font-weight:bold;
+	border-right: 0px solid gray;
+	border-left: 0px solid gray;
+	border-bottom: 0px solid gray;
+	border-top: 0px solid gray;
+	cursor:pointer;cursor:hand;
+}
+	
+.monthYearTraversor	{
+	font-family:Arial,Arial, Helvetica, sans-serif;font-size:11px;
+	background: #ADBED7;
+	color: #FFFFFF;
+	font-weight:bold;
+	
+}	
+	
+.calendarDate {
+	font-family:Arial,Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+	text-decoration:none;
+	cursor:pointer;cursor:hand;
+}
+  
+.currentDate {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#FFFFFF;
+	font-weight:BOLD;
+	background: #ADBED7;
+	text-decoration:none;
+	cursor:pointer;cursor:hand;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+	border-top:1px solid gray;	
+}

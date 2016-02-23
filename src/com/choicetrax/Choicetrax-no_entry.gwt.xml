@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='choicetrax_gwt_2_0_3'>
+		
+	<!-- Inherit the core Web Toolkit stuff.          			-->
+	<inherits name='com.google.gwt.user.User'/>
+	<!--  inherit SimpleDatePicker calendar 					-->
+	<!-- inherits name='com.thapar.gwt.user.ui.SimpleDatePicker' /-->
+	
+	<!--  primary css file -->
+  	<!-- stylesheet src="css/Choicetrax.css" /-->
+  	<stylesheet src="css/main.css" />
+  	<!--  audio player css file -->
+  	<stylesheet src="css/audioplayer.css" />
+  	<!--  standard gwt css tags -->
+  	<stylesheet src="css/gwt.css" />
+  	<!--  calendar css file -->
+  	<stylesheet src="css/calendar.css" />
+  	
+	<!-- image bundle replacement -->
+	<inherits name='com.google.gwt.resources.Resources' />
+
+	<!-- Specify the app entry point class.           			-->
+	<!-- entry-point class='com.choicetrax.client.Choicetrax'/ -->
+	
+	<!--  Servlet												-->
+	<!--servlet path="/comm" class="com.choicetrax.server.services.impl.CommunicationServiceImpl" /-->
+	
+	<!-- Specify the paths for translatable code                    -->
+  	<source path='client'/>
+  	<source path='shared'/>
+  	
+</module>

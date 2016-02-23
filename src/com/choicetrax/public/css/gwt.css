@@ -1,0 +1,70 @@
+
+
+.gwt-HTML { 
+    display: inline; 
+} 
+
+.gwt-TextBox, .gwt-PasswordTextBox {
+	font-family: verdana, helvetica, arial, sans-serif;
+	color: #999999;
+	maxlength: 40;
+	width: 100px;
+	margin: 0px 10px 0px 0px;
+}
+
+.gwt-Button {
+	text-decoration: none;
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-size: 11px;
+}
+
+.gwt-ListBox {
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-size: 11px;
+}
+
+.gwt-Hyperlink {
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-size: 11px;
+  	display: inline; 
+  	color: #7690CF;
+}
+
+
+.gwt-Label {
+	display: inline;
+	text-decoration: none;
+}  	
+
+.gwt-TabPanel {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.gwt-TabPanelBottom {
+	
+}
+
+
+.gwt-TabBar {
+}
+
+.gwt-TabBar .gwt-TabBarFirst {
+	/*width: 20px;*/
+}
+
+.gwt-TabBar .gwt-TabBarItem {
+  	padding: 0px;
+  	cursor: default;
+}
+
+.gwt-TabBar .gwt-TabBarItem-selected {
+  	padding: 0px;
+  	cursor: default;
+}
+
+
+.gwt-DisclosurePanel .header {
+	cursor: default;
+	text-decoration: none;
+}

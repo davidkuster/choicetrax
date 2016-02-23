@@ -1,0 +1,379 @@
+
+body {
+	background-color: #43464D;
+	/* background-color: #161719;  #212326;  #181818; */
+	color: #FFFFFF;
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	padding: 0px;
+	margin-top: 3px;
+	margin-left: auto;
+	margin-right: auto;
+ 	text-align: center;
+ 	/* scrollbar-base-color: #48577D; */
+}
+
+td {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	vertical-align: top;
+}
+
+input {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+
+.smallerText {
+	font-family: Arial, sans-serif;
+	font-size: 10px;	
+	display: inline;
+}
+
+.smallerItalicText {
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	display: inline;
+}
+
+.alertText {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	color: red;	
+}
+
+.strongText {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.disabledText {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-style: italic;	
+}
+
+.layoutPanel {
+	margin: 1px; 
+	padding: 2px;
+	border-bottom: 3px solid #9197A6;
+	border-right: 3px solid #9197A6;
+	border-left: 3px solid #9197A6;
+	border-top: 3px solid #9197A6;
+	width: 100%;
+	background-color: #43464D;
+}
+
+
+.loadingPanel {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background: #9197A6;
+	border-bottom: 3px solid gray;
+	border-right: 3px solid gray;
+	border-left: 3px solid gray;
+	border-top: 3px solid gray;
+	height: 40px;
+	width: 80px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.aboutUsPanel {
+	width: 100%;
+	/* width: 950px; */
+	height: 250px;	
+	padding: 15px;
+}
+
+
+.accountTabPanel {
+	width: 160px;
+}
+
+.accountPanelGrid td {
+	text-align: center;	
+	vertical-align: middle;
+	border: 1px solid #9197A6;
+}
+
+.accountPanelVerticalPanels td {
+	text-align: center;
+	border: 0px;
+}
+
+
+.featuredReleasesTabPanel {
+	width: 255px;
+	background-color: #43464D;
+}
+
+.featuredReleasesScrollPanel {
+	width: 255px;
+	height: 75px;	
+}
+
+.featuredReleasesPanel {
+	height: 55px;
+}
+
+.featuredReleasePanel {
+	height: 40px;
+	width: 100px;
+	padding-left: 2px;
+	padding-right: 2px;	
+}
+
+
+.checkoutVerticalPanel {
+	border: 1px solid #9197A6;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 4px;
+}
+
+
+.searchTabPanel {
+	width: 100%; /* 575px; */
+	background: #43464D;
+	background-color: #43464D;
+}
+
+.searchTable {
+	text-align: right;
+}
+
+.browseReleasesRow1 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 2px;	
+	vertical-align: middle;
+}
+
+.browseReleasesRow2 {
+	margin-bottom: 5px;
+	padding: 2px;	
+}
+
+.favoritesScrollPanel {
+	height: 125px;
+	border: 1px solid #7690CF;
+}
+
+.favoritesTabPanel {
+	width: 225px;
+	background-color: #43464D;
+}
+
+.favoritesGrid {
+	border-collapse: separate;	
+}
+
+.favoritesName {
+	border-bottom: 1px solid #9197A6;
+	border-right: 0px;
+	border-left: 1px solid #9197A6;
+	border-top: 1px solid #9197A6;
+}
+
+.favoritesRemove {
+	border-bottom: 1px solid #9197A6;
+	border-right: 1px solid #9197A6;
+	border-left: 0px;
+	border-top: 1px solid #9197A6;
+	text-align: center;
+}
+
+
+.recommendedPanel {
+	height: 50px;	
+	width: 225px;
+}
+
+.recommendedInfoPanel {
+	padding-left: 5px;
+	padding-right: 5px;
+	border: 1px solid #7690CF;
+}
+
+
+.albumScrollPanel {
+	height: 355px;
+	width: 225px;
+	border: 1px solid #7690CF;
+}
+
+.albumInfoPanel {
+	padding-left: 2px;
+	padding-right: 2px;	
+}
+
+
+
+.ratingPanel {
+	width: 24px; 
+	height: 40px;
+}
+
+.ratingPanel td {
+	border: 1px solid #9197A6;
+}
+
+
+.buyIcon {
+	cursor:pointer;cursor:hand;
+	width: 24px;
+	height: 18px;
+}
+
+.listenIcon {
+	cursor:pointer;cursor:hand;
+	width: 24px;
+	height: 16px;
+}
+
+.clickedIcon {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.listenBuyColumn {
+	padding: 1px;
+	text-align: center;
+}
+
+.listenBuyRow {
+	text-align: left;
+}
+
+.listenBuyRowEP {
+	text-align: left;
+	width: 145px;
+}
+
+
+.releasesTable {
+	width: 100%;
+}
+
+
+.releasesTableHeader {
+	text-align: center;
+	/* background: #7690CF; */
+	/* background: ADBED7; */
+	background: #000000;
+}
+
+.releasesTableHeader td {
+	vertical-align: middle;
+}
+
+
+.releasesTableCell {
+	border-bottom: 1px solid #9197A6;
+}
+
+
+.releasesTablePageNumber {
+	width: 15px;
+}
+
+
+.popupPanel {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	/* background: #000000; #C3CC6D; */
+	background: #43454D;
+	border: 1px solid #FFFFFF;
+}
+
+.popupPanel .labelLink {
+	color: #43454D;
+	/* color: #7690CF; */
+	display: inline;
+}
+
+
+.imageLink {
+	cursor:pointer;cursor:hand;
+}
+
+
+.labelLink {
+	color: #7690CF;
+	cursor:pointer;cursor:hand;
+	display: inline;
+}
+
+.labelLink:hover {
+    text-decoration: underline;
+}
+
+.labelLink-black {
+	color: #000000;
+	cursor:pointer;cursor:hand;
+	display: inline;
+}
+
+.labelLink-black:hover {
+    text-decoration: underline;
+}
+
+.mainPanelHeaderLabel {
+	font-weight: bold;
+	font-size: 12px;	
+}
+
+.multiSelectGrid td {
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+.multiSelectVerticalPanel {
+	padding: 1px;
+	text-align: center;
+}
+
+.virtualCartsSelectPanel {
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.virtualCartFormatLabel {
+	font-family: Arial, sans-serif;
+	font-size: 11px;
+	font-style: italic;	
+	border: 1px solid #9197A6;
+	text-align: center;
+	width: 100px;
+}
+
+
+.hyperlinkButton {
+	width: 22px;
+	height: 18px;	
+}
+
+
+.topImagePanel {
+	width: 720px;
+	height: 120px;
+	padding: 1px;	
+}
+
+
+.accountTextField {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 160px;
+	height: 17px;	
+}
+
+

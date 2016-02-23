@@ -1,0 +1,27 @@
+#sub {
+	margin: 5px 0px 0px 0px;
+  	padding: 0px;
+  	text-align: left;
+  	font-size: 11px;
+  	color: #fff;
+	}	
+	
+.box {
+	margin: 0px 0px 0px 0px;
+  	padding: 0px;
+  	text-align: left;
+  	font-size: 11px;
+  	}
+  	
+#futureReleases {
+	width: 360px;
+	}	  
+	
+.featuredReleasesTabPanel {
+	width: 360px;
+	}
+	.featuredReleasesScrollPanel {
+		width: 360px;
+		height: 100px;	
+	}
+	
