@@ -2,7 +2,7 @@
 
 This is the client and server code for my side project/startup Choicetrax, which was a DJ-oriented dance music search engine. It provided the ability to search [Beatport](http://beatport.com), [Traxsource](http://traxsource.com), [Juno Download](http://junodownload.com), Stompy, Primal Records and DJDownload. (Unfortunately, the unlinked stores no longer exist.) For more details on functionality and to see what the UI looked like at launch, see [this video](https://www.youtube.com/watch?v=rVc8BkVmHzE):
 
-[![YouTube](https://www.youtube.com/watch?v=rVc8BkVmHzE)](https://github.com/davidkuster/choicetrax/raw/master/src/com/choicetrax/public/img/layout/video.jpg)
+[![YouTube](https://github.com/davidkuster/choicetrax/raw/master/src/com/choicetrax/public/img/layout/video.jpg)](https://www.youtube.com/watch?v=rVc8BkVmHzE)
 
 The whole project was almost 37k LOC. In this repo I'm just including the GWT client and Java server code for what was public facing. However, there were other codebases - the background screen scraping batch job to collect data from the various download stores, the private admin system, the self-service advertising system, and a collection of SQL scripts and XML Schema docs used to generate some of the code found here.
 
