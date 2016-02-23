@@ -9,14 +9,14 @@ At some point I may do more of a post-mortem on the entire project. For now it's
 - a single GWT RPC endpoint using the command pattern
 - independently arriving at the CQRS pattern (C = handlers, Q = loaders)
 - writing code for the UI, as opposed to markup (HTML/JSX/etc)
-- more to come...
+- *(more to come...)*
 
 And things I don't like:
 
 - the complete lack of tests
 - limited comments
 - extensive string concatenation (notably in inline SQL)
-- more to come...
+- *(more to come...)*
 
 
 ## License
